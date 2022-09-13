@@ -1,16 +1,19 @@
 # Clear-terminal-screen-on-mac
 If you want to actually clear terminal screen without scrolling, then this command is for you! (This command also works with linux!)
 
+# What you need
+you will need gcc compiler and Apple Developer tools to make your own binary, but if you aren't able to secure them, you can use precompiled binaries in bin/ directory, in which case you'll skip to second step in manuall instalation
+
 # How to install from install.sh
 Open a terminal in directory where is install.sh and run
 
 ./install.sh
 
 # How to install manually
-Open a terminal in directory where is cls.c file and run the command
+1. Open a terminal in directory where is cls.c file and run the command
 
 gcc cls.c –o cls
 
-From (same) directory with cls binary run command in terminal:
+2. From (same) directory with cls binary run command in terminal:
 
 cp cls /usr/local/bin/
