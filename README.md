@@ -1,7 +1,7 @@
 # Clear-terminal-screen-on-mac
 If you want to actually clear terminal screen without scrolling, then this command is for you! (This command also works with linux!)
 
-#How to install from install.sh
+# How to install from install.sh
 Open a terminal in directory where is install.sh and run
 
 ./install.sh
