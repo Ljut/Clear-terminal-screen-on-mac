@@ -4,4 +4,4 @@ If you want to actually clear terminal screen without scrolling, then this comma
 # How to install manually
 From directory with cls binary run command:
 
-cp cls 
+cp cls /usr/local/bin/
